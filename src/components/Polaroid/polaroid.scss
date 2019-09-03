@@ -1,0 +1,29 @@
+.polaroid {
+  margin-top: 15px;
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+  border: solid 1px lightgrey;
+  box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.8s;
+}
+
+.polaroid:hover {
+  box-shadow: 11px 6px 34px 0px rgba(0, 0, 0, 0.75);
+}
+
+.polaroid__inner {
+  margin: 0 auto;
+  width: 200px;
+  height: 180px;
+  border: solid 1px lightgrey;
+}
+
+.polaroid__inner > img {
+  width: 200px;
+}
+
+.polaroid__outer {
+  padding: 10px;
+  text-align: center;
+}

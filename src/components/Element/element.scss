@@ -1,0 +1,17 @@
+.element__heading {
+  color: blue;
+}
+
+.element__container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.element__container:hover {
+
+  background-color: rgba(230, 230, 230, 0.3)
+}
+
+.notrendered__container {
+  margin: 15px;
+}
