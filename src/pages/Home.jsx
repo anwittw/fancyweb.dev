@@ -3,7 +3,7 @@ import Polaroid from "../components/Polaroid/Polaroid";
 
 let pages = [
   { link: "htmlcheatsheet", subline: "Interactive HTML" },
-  { link: "flextest", subline:'Flextest' }
+  // { link: "flextest", subline:'Flextest' }
 ];
 
 export default function Home() {
