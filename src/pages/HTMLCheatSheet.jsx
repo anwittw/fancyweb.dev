@@ -51,9 +51,24 @@ export default function HTMLCheatSheet() {
     <Element render={comment} title="Comment" />
     <Element render={span} title="Span" />
     <Element render={div} title="Division" />
-
     </div>
   );
 }
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit cupiditate quibusdam culpa, fugiat, odit, dolore ab laboriosam voluptates repellat vero officia quasi? Alias provident quas suscipit. Ullam at vel voluptate.
