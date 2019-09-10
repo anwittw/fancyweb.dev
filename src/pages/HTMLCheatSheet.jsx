@@ -84,6 +84,7 @@ export default function HTMLCheatSheet() {
       <Element render={comment} title="Comment" />
       <Element render={span} title="Span" />
       <Element render={div} title="Division" />
+      <Element render={div} title="Division" />
     </div>
   );
 }
