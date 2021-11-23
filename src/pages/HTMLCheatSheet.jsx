@@ -7,7 +7,7 @@ const headings = [
   "<h3>Heading 3</h3>",
   "<h4>Heading 4</h4>",
   "<h5>Heading 5</h5>",
-  "<h6>Heading 6</h6>"
+  "<h6>Heading 6</h6>",
 ];
 
 const ul = [
@@ -15,7 +15,7 @@ const ul = [
   "<li>item I</li>",
   "<li>item II</li>",
   "<li>item III</li>",
-  "</ul>"
+  "</ul>",
 ];
 
 const ol = [
@@ -23,33 +23,37 @@ const ol = [
   "<li>item I</li>",
   "<li>item II</li>",
   "<li>item III</li>",
-  "</ol>"
+  "</ol>",
 ];
 
 const a = ['<a href="/about">This is an Link to the about Page</a>'];
 
 const aTab = [
-  '<a href="/about" rel="noopener noreferrer" target="_blank">Open about in new Tab</a>'
+  '<a href="/about" rel="noopener noreferrer" target="_blank">Open about in new Tab</a>',
 ];
 
 const p = [
   "<p>error excepturi harum voluptas placeat, sequi enim voluptatum, consequatur itaque doloribus nesciunt architecto mollitia earum rerum deleniti quibusdam exercitationem?</p>",
-  "<p>error excepturi harum voluptas placeat, sequi enim voluptatum, consequatur itaque doloribus nesciunt architecto mollitia earum rerum deleniti quibusdam exercitationem?</p>"
+  "<p>error excepturi harum voluptas placeat, sequi enim voluptatum, consequatur itaque doloribus nesciunt architecto mollitia earum rerum deleniti quibusdam exercitationem?</p>",
 ];
 
 const table = [
   "<table>",
+  "<thead>",
   "<tr>",
   "<th>Name</th>",
   "<th>Bootcamp</th>",
   "<th>City</th>",
   "</tr>",
+  "</thead>",
+  "<tbody>",
   "<tr>",
   "<td>Jose Perez</td>",
   "<td>FullStack WebDev</td>",
   "<td>Madrid</td>",
   "</tr>",
-  "</table>"
+  "</tbody>",
+  "</table>",
 ];
 
 const img = ['<img src="/IMG_2215.png" alt="webDevDuck" width=100 >'];
@@ -66,7 +70,7 @@ const div = [
   "</div>",
   "<div>",
   "<span>Me too.</span>",
-  "</div>"
+  "</div>",
 ];
 
 export default function HTMLCheatSheet() {
@@ -83,7 +87,6 @@ export default function HTMLCheatSheet() {
       <Element render={hr} title="Horizontal Line" />
       <Element render={comment} title="Comment" />
       <Element render={span} title="Span" />
-      <Element render={div} title="Division" />
       <Element render={div} title="Division" />
     </div>
   );

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 export default function Header() {
   return (
     <header className="header">
-    <img className="header__img" src="/IMG_2215.png" />
+      <img className="header__img" src="/IMG_2215.png" />
       <Nav className="Nav">
         <NavItem className="nav__navitem">
           <NavLink activeClassName="nav__navlink--active" to="/">
@@ -14,7 +14,12 @@ export default function Header() {
           </NavLink>
         </NavItem>
         <NavItem className="nav__navitem">
-          <NavLink  activeClassName="nav__navlink--active" to="/about">
+          <NavLink activeClassName="nav__navlink--active" to="/imprint">
+            imprint
+          </NavLink>
+        </NavItem>
+        <NavItem className="nav__navitem">
+          <NavLink activeClassName="nav__navlink--active" to="/data-protection">
             About
           </NavLink>
         </NavItem>
